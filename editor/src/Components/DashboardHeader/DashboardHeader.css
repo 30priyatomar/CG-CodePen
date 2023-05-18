@@ -1,0 +1,14 @@
+.dashboard-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 156, 130);
+    color: #ffffff;
+    padding: 1.5rem;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

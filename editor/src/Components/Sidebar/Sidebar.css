@@ -1,0 +1,43 @@
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .sidebar.open {
+    width: 250px;
+  }
+  
+  .sidebar-toggle {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+  }

@@ -1,0 +1,33 @@
+.users-section {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .users-section .section-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .users-section .section-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .users-section .section-content .user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .users-section .section-content .user-list li {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .users-section .section-content .user-list li span {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  

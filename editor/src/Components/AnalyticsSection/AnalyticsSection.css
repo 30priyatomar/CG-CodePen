@@ -1,0 +1,38 @@
+.analytics-section {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .analytics-section .section-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .analytics-section .section-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .analytics-section .section-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .analytics-section .section-content .stat {
+    text-align: center;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .analytics-section .section-content .stat h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .analytics-section .section-content .stat p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
